@@ -1,0 +1,43 @@
+name: Developers practice meet - assets
+description: Issue ticket to collect assets for your practice meet.
+title:  "{Your Name}: {Practice area} Practice Meet - {Month}"
+labels: [ ]
+assignees:
+  - octocat
+body:
+  - type: textarea
+    id: title
+    attributes:
+      label: Talk title
+      description:
+      placeholder:
+      value:
+    validations:
+      required: true
+  - type: textarea
+    id: name
+    attributes:
+      label: Your name
+      description:
+      placeholder:
+      value:
+    validations:
+      required: true
+  - type: textarea
+    id: logistics
+    attributes:
+      label: Date, time, location
+      description:
+      placeholder:
+      value:
+    validations:
+      required: true
+  - type: textarea
+    id: blurb
+    attributes:
+      label: Blurb + Photo
+      description: One-sentence description of the session.  Example https://www.instagram.com/p/C_3CMvvtx2K/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==  and add a photo of you to be used in the flyer.
+      placeholder:
+      value:
+    validations:
+      required: true

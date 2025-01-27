@@ -1,0 +1,16 @@
+name: Onboarding to the Development Community of Practice
+description: Use this template when joining the dev community of practice to get a checklist of tasks to self-onboard.
+title:  "{Name}: Onboarding Tasks "
+labels: [ "devs",]
+assignees:
+  - octocat
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: This is just a placeholder for now
+      placeholder:
+      value:
+    validations:
+      required: false
