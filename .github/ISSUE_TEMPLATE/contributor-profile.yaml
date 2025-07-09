@@ -32,12 +32,3 @@ body:
       value:
     validations:
       required: true
-  - type: textarea
-    id: contact
-    attributes:
-      label: Contact info
-      description: What's some contact info you are willing to share, such as email, in case someone wants to recruit you to an Open Austin project? (NOTE! this is a public)
-      placeholder:
-      value:
-    validations:
-      required: true
